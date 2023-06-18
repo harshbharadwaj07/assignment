@@ -16,7 +16,7 @@ function Home(){
         e.preventDefault();
         try {
         const str=searchStr.str;
-        const res=await fetch("/search",{
+        const res=await fetch("https://assignment-sable-ten.vercel.app/search",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"

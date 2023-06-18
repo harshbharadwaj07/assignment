@@ -9,7 +9,7 @@ function Blogs(){
     const getBlogs=async()=>{
         try{
             setLoad(true);
-            const res=await fetch("/blogs",{
+            const res=await fetch("https://assignment-sable-ten.vercel.app/blogs",{
                 method:"GET",
                 headers:{
                     "Content-Type":"application/json"

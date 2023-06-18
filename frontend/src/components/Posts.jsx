@@ -9,7 +9,7 @@ function Posts(){
     const getBlogs=async()=>{
         try{
             setLoad(true);
-            const res=await fetch("/blogs",{
+            const res=await fetch("https://assignment-sable-ten.vercel.app/blogs",{
                 method:"GET",
                 headers:{
                     "Content-Type":"application/json"
@@ -27,7 +27,7 @@ function Posts(){
     const getBlogsFilter=async(str)=>{
         try {
         if(str.length>0){
-        const res=await fetch("/filter",{
+        const res=await fetch("https://assignment-sable-ten.vercel.app/filter",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"

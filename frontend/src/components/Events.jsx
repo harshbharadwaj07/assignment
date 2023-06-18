@@ -8,7 +8,7 @@ function Events(){
     const getEvents=async()=>{
         try{
             setLoad(true);
-            const res=await fetch("/events",{
+            const res=await fetch("https://assignment-sable-ten.vercel.app/events",{
                 method:"GET",
                 headers:{
                     "Content-Type":"application/json"

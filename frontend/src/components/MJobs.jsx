@@ -9,7 +9,7 @@ function MJobs(){
     const getJobs=async()=>{
         try{
             setLoad(true);
-            const res=await fetch("/jobs",{
+            const res=await fetch("https://assignment-sable-ten.vercel.app/jobs",{
                 method:"GET",
                 headers:{
                     "Content-Type":"application/json"
