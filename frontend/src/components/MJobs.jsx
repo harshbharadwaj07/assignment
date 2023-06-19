@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from "react";
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup'
 import Placeholder from 'react-bootstrap/Placeholder';
 
 function MJobs(){

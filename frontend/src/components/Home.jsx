@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React,{useState} from "react";
 import Events from "./Events";
 import News from "./News";
 import Jobs from "./Jobs";

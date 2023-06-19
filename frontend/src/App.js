@@ -1,8 +1,7 @@
 import React from 'react';
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
-import Blogs from './components/Blogs';
 import MEvents from './components/MEvents';
 import MJobs from './components/MJobs';
 import MNews from './components/MNews';
